@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eitken</title>
+    <link rel="stylesheet" href="./task.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="./task.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-task">
+        <h1>Метод Ейткена</h1>
+        <img src="./Screenshot_1.png" alt="" />
+      </div>
+      <div class="inputers">
+        <input
+          type="number"
+          name=""
+          id="inputA"
+          placeholder="Введіть значення a"
+        />
+        <input
+          type="number"
+          name=""
+          id="inputB"
+          placeholder="Введіть значення b"
+        />
+        <input
+          type="number"
+          name=""
+          id="inputN"
+          placeholder="Введіть значення n"
+        />
+      </div>
+      <p>Значення по дефолту: <br />a = 0, b = 5, n = 11</p>
+      <div class="calc-result">
+        <button class="result">Розрахувати</button>
+      </div>
+      <div class="canvas-container">
+        <div class="canvas">
+          <canvas id="diagram" width="200px" height="150px"></canvas>
+        </div>
+        <div class="canvas">
+          <canvas id="diagram2" width="200px" height="150px"></canvas>
+        </div>
+        <div class="canvas">
+          <canvas id="diagram3" width="200px" height="150px"></canvas>
+        </div>
+      </div>
+      <div class="clear-container">
+        <button class="clear">Очистити</button>
+      </div>
+    </div>
+  </body>
+</html>
